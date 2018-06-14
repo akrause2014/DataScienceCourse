@@ -5,10 +5,18 @@ This notebook shows how to implement k-means clustering in Spark.
 Prerequisites:
 Java 8. Does not work with Java 9 or 10.
 
-Installation
+Installation:
+Download latest version of Spark and unzip.
+
+Installation on MacOS with Homebrew:
 ```
 brew install scala
 brew install apache-spark
+```
+
+Installation of notebook:
+
+```
 git clone https://github.com/akrause2014/DataScienceCourse.git
 conda create --name dataScience
 conda install -n dataScience numpy matplotlib scikit-learn pyspark Jupyter
